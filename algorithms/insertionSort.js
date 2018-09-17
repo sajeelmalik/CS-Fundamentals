@@ -31,10 +31,12 @@ function insertionSort(items){
 
     var j = i;
 
+    //could use a for loop and iterate backwards also 
     while(j > 0 && items[j - 1] > items[j]){
       
       swap(items, j, j - 1)
       j--;
+
     }
   }
 
